@@ -146,13 +146,12 @@ const InquiryModal = ({ isOpen, onClose, defaultPackage }) => {
                   ></textarea>
                   <Button type="submit" variant="primary" style={{ 
                     width: '100%', 
-                    marginTop: '1.5rem',
-                    padding: '1.2rem',
-                    fontSize: '1.1rem',
-                    fontWeight: 'bold',
-                    textTransform: 'uppercase',
-                    letterSpacing: '1px',
-                    borderRadius: 'var(--radius-md)'
+                    padding: '1rem',
+                    fontSize: '1rem',
+                    fontWeight: '600',
+                    letterSpacing: '0.5px',
+                    borderRadius: 'var(--radius-sm)',
+                    boxShadow: 'none'
                   }}>
                     Send Inquiry Request
                   </Button>
