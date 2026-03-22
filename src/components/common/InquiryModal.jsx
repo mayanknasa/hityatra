@@ -144,8 +144,17 @@ const InquiryModal = ({ isOpen, onClose, defaultPackage }) => {
                     onChange={handleChange}
                     style={{...inputStyle, resize: 'vertical'}}
                   ></textarea>
-                  <Button type="submit" variant="primary" style={{ width: '100%', marginTop: '1rem' }}>
-                    Submit Request
+                  <Button type="submit" variant="primary" style={{ 
+                    width: '100%', 
+                    marginTop: '1.5rem',
+                    padding: '1.2rem',
+                    fontSize: '1.1rem',
+                    fontWeight: 'bold',
+                    textTransform: 'uppercase',
+                    letterSpacing: '1px',
+                    borderRadius: 'var(--radius-md)'
+                  }}>
+                    Send Inquiry Request
                   </Button>
                 </form>
               </>
