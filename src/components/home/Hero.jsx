@@ -12,7 +12,7 @@ const Hero = ({ onBook }) => {
       height: '80vh',
       minHeight: '600px',
       width: '100%',
-      backgroundImage: 'url(https://images.unsplash.com/photo-1616238692735-96bb336bfbb7?auto=format&fit=crop&q=80&w=2000)',
+      backgroundImage: 'url(/images/hero_bg.png)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       display: 'flex',
