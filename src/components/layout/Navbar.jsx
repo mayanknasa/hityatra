@@ -23,7 +23,7 @@ const Navbar = ({ onBook }) => {
       }}
     >
       <a href="#home" style={{ display: 'flex', alignItems: 'center' }}>
-        <img src="/images/logo.png" alt="Hit Yatra Logo" style={{ height: '50px', width: 'auto', borderRadius: '4px' }} />
+        <img src="/images/logo.png" alt="Hit Yatra Logo" style={{ height: '80px', width: 'auto', borderRadius: '4px' }} />
       </a>
       
       <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'center' }} className="nav-links hidden-mobile">

@@ -39,6 +39,7 @@ const Hero = ({ onBook }) => {
           maxWidth: '800px'
         }}
       >
+        <img src="/images/logo.png" alt="Hit Yatra Emblem" style={{ height: '70px', marginBottom: '1.5rem', borderRadius: '50%', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }} />
         <h1 style={{ 
           fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', 
           color: '#ffffff',
