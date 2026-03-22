@@ -26,12 +26,11 @@ const Navbar = ({ onBook }) => {
         Hit Yatra
       </div>
       
-      <div style={{ display: 'flex', gap: '2rem', display: 'none' }} className="nav-links">
-        {/* Placeholder for desktop links, hidden on mobile for simplicity in the mockup */}
+      <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'center' }} className="nav-links hidden-mobile">
         <a href="#home" style={{ fontWeight: 600 }}>Home</a>
-        <a href="#tours" style={{ fontWeight: 600 }}>Tour Packages</a>
+        <a href="#tours" style={{ fontWeight: 600 }}>Packages</a>
         <a href="#destinations" style={{ fontWeight: 600 }}>Destinations</a>
-        <a href="#contact" style={{ fontWeight: 600 }}>Contact</a>
+        <a href="#faq" style={{ fontWeight: 600 }}>FAQ</a>
       </div>
 
       <Button variant="primary" onClick={onBook}>

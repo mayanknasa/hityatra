@@ -20,7 +20,9 @@ function App() {
     <>
       <Navbar onBook={() => handleBookNow()} />
       <main style={{ marginTop: '70px', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <Hero onBook={() => handleBookNow()} />
+        <div id="home">
+          <Hero onBook={() => handleBookNow()} />
+        </div>
         <Destinations />
         <TopSelling onBook={handleBookNow} />
         <Testimonials />
