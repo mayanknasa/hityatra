@@ -19,14 +19,14 @@ const Navbar = ({ onBook }) => {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        padding: '1rem 2rem'
+        padding: '0.8rem 3rem'
       }}
     >
       <a href="#home" style={{ display: 'flex', alignItems: 'center' }}>
-        <img src="/images/logo.png" alt="Hit Yatra Logo" style={{ height: '80px', width: 'auto', borderRadius: '4px' }} />
+        <img src="/images/logo.png" alt="Hit Yatra Logo" style={{ height: '60px', width: 'auto', mixBlendMode: 'multiply' }} />
       </a>
       
-      <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'center' }} className="nav-links hidden-mobile">
+      <div style={{ display: 'flex', gap: '2.5rem', flexWrap: 'wrap', alignItems: 'center', marginLeft: 'auto', marginRight: '3rem' }} className="nav-links hidden-mobile">
         <a href="#home" style={{ fontWeight: 600 }}>Home</a>
         <a href="#tours" style={{ fontWeight: 600 }}>Packages</a>
         <a href="#destinations" style={{ fontWeight: 600 }}>Destinations</a>

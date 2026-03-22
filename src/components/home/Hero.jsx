@@ -39,7 +39,19 @@ const Hero = ({ onBook }) => {
           maxWidth: '800px'
         }}
       >
-        <img src="/images/logo.png" alt="Hit Yatra Emblem" style={{ height: '70px', marginBottom: '1.5rem', borderRadius: '50%', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }} />
+        <div style={{ 
+          width: '90px', 
+          height: '90px', 
+          margin: '0 auto 2rem', 
+          backgroundColor: '#fff', 
+          borderRadius: '50%', 
+          display: 'flex', 
+          alignItems: 'center', 
+          justifyContent: 'center', 
+          boxShadow: '0 8px 24px rgba(0,0,0,0.4)' 
+        }}>
+          <img src="/images/logo.png" alt="Hit Yatra Emblem" style={{ height: '60px', width: 'auto', mixBlendMode: 'multiply' }} />
+        </div>
         <h1 style={{ 
           fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', 
           color: '#ffffff',

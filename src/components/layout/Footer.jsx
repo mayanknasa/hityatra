@@ -20,7 +20,15 @@ const Footer = () => {
       }}>
         {/* Column 1 */}
         <div>
-          <img src="/images/logo.png" alt="Hit Yatra Logo" style={{ height: '60px', width: 'auto', marginBottom: '1.5rem', borderRadius: '4px' }} />
+          <div style={{ 
+            backgroundColor: '#fff', 
+            display: 'inline-block', 
+            padding: '0.5rem 1rem', 
+            borderRadius: 'var(--radius-sm)', 
+            marginBottom: '1.5rem' 
+          }}>
+            <img src="/images/logo.png" alt="Hit Yatra Logo" style={{ height: '50px', width: 'auto', display: 'block', mixBlendMode: 'multiply' }} />
+          </div>
           <p style={{ lineHeight: 1.6, color: '#a0aec0' }}>
             Experience divine journeys and breathtaking destinations across India with our premium travel packages.
           </p>
