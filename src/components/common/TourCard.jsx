@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Button from './Button';
 
-const TourCard = ({ tour }) => {
+const TourCard = ({ tour, onBook }) => {
   return (
     <motion.div 
       initial={{ opacity: 0, y: 20 }}
@@ -63,7 +63,7 @@ const TourCard = ({ tour }) => {
           <div style={{ fontSize: '1.25rem', fontWeight: 'bold', color: 'var(--color-primary)' }}>
             {tour.price}
           </div>
-          <Button variant="primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>
+          <Button variant="primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }} onClick={() => onBook && onBook(tour.title)}>
             Book Now
           </Button>
         </div>

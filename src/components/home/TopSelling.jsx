@@ -2,7 +2,7 @@ import React from 'react';
 import { useData } from '../../context/DataContext';
 import TourCard from '../common/TourCard';
 
-const TopSelling = () => {
+const TopSelling = ({ onBook }) => {
   const { topSelling } = useData();
 
   return (
@@ -23,7 +23,7 @@ const TopSelling = () => {
           gap: '2.5rem' 
         }}>
           {topSelling.map(tour => (
-            <TourCard key={tour.id} tour={tour} />
+            <TourCard key={tour.id} tour={tour} onBook={onBook} />
           ))}
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Button from '../common/Button';
 
-const Navbar = () => {
+const Navbar = ({ onBook }) => {
   return (
     <motion.nav 
       initial={{ y: -100 }}
@@ -34,7 +34,7 @@ const Navbar = () => {
         <a href="#contact" style={{ fontWeight: 600 }}>Contact</a>
       </div>
 
-      <Button variant="primary">
+      <Button variant="primary" onClick={onBook}>
         Book Now
       </Button>
     </motion.nav>

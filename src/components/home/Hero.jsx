@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useData } from '../../context/DataContext';
 import Button from '../common/Button';
 
-const Hero = () => {
+const Hero = ({ onBook }) => {
   const { hero } = useData();
 
   return (
@@ -54,7 +54,7 @@ const Hero = () => {
         }}>
           {hero.subtitle}
         </p>
-        <Button variant="primary" style={{ padding: '1rem 2.5rem', fontSize: '1.1rem' }}>
+        <Button variant="primary" style={{ padding: '1rem 2.5rem', fontSize: '1.1rem' }} onClick={onBook}>
           {hero.ctaText}
         </Button>
       </motion.div>
