@@ -1,0 +1,81 @@
+{
+  "contact": {
+    "instagramUrl": "https://www.instagram.com/hit_yatra/",
+    "phone": "+91-9876543210",
+    "email": "bookings@hityatra.com",
+    "address": "Hit Yatra Travel Services, India"
+  },
+  "hero": {
+    "title": "Experience India Like Never Before",
+    "subtitle": "Hit Yatra brings you the most divine and breathtaking journeys across India.",
+    "ctaText": "Explore Packages"
+  },
+  "topSelling": [
+    {
+      "id": "pkg-1",
+      "title": "Divine Varanasi",
+      "duration": "3 Days / 2 Nights",
+      "price": "₹8,999",
+      "rating": 4.8,
+      "reviews": 124,
+      "image": "https://images.unsplash.com/photo-1561359313-0639aad3a644?auto=format&fit=crop&q=80&w=800",
+      "tag": "Best Seller"
+    },
+    {
+      "id": "pkg-2",
+      "title": "Ayodhya Darshan",
+      "duration": "2 Days / 1 Night",
+      "price": "₹5,499",
+      "rating": 4.9,
+      "reviews": 310,
+      "image": "https://images.unsplash.com/photo-1706692842426-11f879103bd9?auto=format&fit=crop&q=80&w=800",
+      "tag": "Trending"
+    },
+    {
+      "id": "pkg-3",
+      "title": "Majestic Mathura & Vrindavan",
+      "duration": "4 Days / 3 Nights",
+      "price": "₹12,499",
+      "rating": 4.7,
+      "reviews": 215,
+      "image": "https://images.unsplash.com/photo-1622308644420-b0cfddac2692?auto=format&fit=crop&q=80&w=800",
+      "tag": "Popular"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "dest-1",
+      "name": "Kashi",
+      "image": "https://images.unsplash.com/photo-1561359313-0639aad3a644?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": "dest-2",
+      "name": "Mathura",
+      "image": "https://images.unsplash.com/photo-1622308644420-b0cfddac2692?auto=format&fit=crop&q=80&w=800"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do I book a Hit Yatra package?",
+      "answer": "You can fill out the inquiry form on any package or contact us directly on our Instagram at https://www.instagram.com/hit_yatra/."
+    },
+    {
+      "question": "Are the prices inclusive of food?",
+      "answer": "Yes, breakfast is included in all our standard packages. MAP (Modified American Plan) options including dinner are available upon request."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t-1",
+      "name": "Rahul Verma",
+      "text": "The Kashi tour organized by Hit Yatra was incredibly peaceful and perfectly managed.",
+      "rating": 5
+    },
+    {
+      "id": "t-2",
+      "name": "Priya Sharma",
+      "text": "Excellent service and deep cultural insights. Highly recommend Hit Yatra!",
+      "rating": 5
+    }
+  ]
+}

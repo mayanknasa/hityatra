@@ -4,7 +4,7 @@ This roadmap defines the sequence of work to deliver the core value: A visually 
 
 ## Phases
 
-### Phase 1.0: Foundation 
+### Phase 1: Foundation
 *Initialize the application infrastructure, styling framework, animations setup, and global state (data.json context).*
 - **Requirements**: ARCH-01, ARCH-02, ARCH-03, ARCH-04
 - **Success Criteria**:
@@ -13,7 +13,7 @@ This roadmap defines the sequence of work to deliver the core value: A visually 
   - Context Provider makes data globally available across the component tree.
   - Tailwind (if used) and Framer Motion are successfully installed.
 
-### Phase 2.0: Layout & Global Setup
+### Phase 2: Layout & Global Setup
 *Construct the main navigational layout, footer, and a prominent animated Hero section.*
 - **Requirements**: LAY-01, LAY-02, LAY-03
 - **Success Criteria**:
@@ -21,7 +21,7 @@ This roadmap defines the sequence of work to deliver the core value: A visually 
   - `Hero` component uses dynamic text from `data.json` and basic Framer Motion reveal.
   - `Footer` is present with the correct Instagram URL linking to `https://www.instagram.com/hit_yatra/`.
 
-### Phase 3.0: Interactive Base Components
+### Phase 3: Interactive Base Components
 *Build reusable, highly-polished display components (cards, animated buttons).*
 - **Requirements**: INT-01, INT-02
 - **Success Criteria**:
@@ -29,7 +29,7 @@ This roadmap defines the sequence of work to deliver the core value: A visually 
   - Hovering over a card triggers a smooth scale or perspective shift.
   - Animated primary Call To Action buttons render across the app.
 
-### Phase 4.0: Dynamic Content Blocks
+### Phase 4: Dynamic Content Blocks
 *Implement the bulk of the landing page sections feeding off the `data.json` schema.*
 - **Requirements**: CONT-01, CONT-02, CONT-03, CONT-04, CONT-05, CONT-06, CONT-07
 - **Success Criteria**:
@@ -38,7 +38,7 @@ This roadmap defines the sequence of work to deliver the core value: A visually 
   - The FAQ accordion accurately expands and collapses content smoothly.
   - A slick, auto-playing or gesture-based Testimonials Carousel effectively loops through user reviews.
 
-### Phase 5.0: Booking & Inquiry Integration
+### Phase 5: Booking & Inquiry Integration
 *Integrate the functional Form components for travel inquiries.*
 - **Requirements**: INT-03
 - **Success Criteria**:
@@ -46,7 +46,7 @@ This roadmap defines the sequence of work to deliver the core value: A visually 
   - Validation feedback behaves precisely.
   - Submitting triggers a visible mock success-state or redirects to a `mailto:` / backend simulator endpoint.
 
-### Phase 6.0: Final Polish & Rebranding
+### Phase 6: Final Polish & Rebranding
 *Perform a holistic sweep to remove any placeholder "Vrindavan Package" text, lock in responsiveness, and refine global scroll reveals.*
 - **Requirements**: POL-01, POL-02, POL-03
 - **Success Criteria**:
