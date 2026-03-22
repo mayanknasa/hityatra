@@ -20,7 +20,7 @@ const Footer = () => {
       }}>
         {/* Column 1 */}
         <div>
-          <h2 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>Hit Yatra</h2>
+          <img src="/images/logo.png" alt="Hit Yatra Logo" style={{ height: '60px', width: 'auto', marginBottom: '1.5rem', borderRadius: '4px' }} />
           <p style={{ lineHeight: 1.6, color: '#a0aec0' }}>
             Experience divine journeys and breathtaking destinations across India with our premium travel packages.
           </p>

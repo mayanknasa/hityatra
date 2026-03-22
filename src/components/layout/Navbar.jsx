@@ -22,9 +22,9 @@ const Navbar = ({ onBook }) => {
         padding: '1rem 2rem'
       }}
     >
-      <div style={{ color: 'var(--color-primary)', fontWeight: 'bold', fontSize: '1.5rem' }}>
-        Hit Yatra
-      </div>
+      <a href="#home" style={{ display: 'flex', alignItems: 'center' }}>
+        <img src="/images/logo.png" alt="Hit Yatra Logo" style={{ height: '50px', width: 'auto', borderRadius: '4px' }} />
+      </a>
       
       <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', alignItems: 'center' }} className="nav-links hidden-mobile">
         <a href="#home" style={{ fontWeight: 600 }}>Home</a>
