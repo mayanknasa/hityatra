@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Button from '../common/Button';
 
 const Navbar = () => {
   return (
@@ -33,16 +34,9 @@ const Navbar = () => {
         <a href="#contact" style={{ fontWeight: 600 }}>Contact</a>
       </div>
 
-      <button style={{
-        backgroundColor: 'var(--color-primary)',
-        color: '#ffffff',
-        padding: '0.6rem 1.25rem',
-        borderRadius: 'var(--radius-md)',
-        fontWeight: 'bold',
-        fontSize: '0.9rem'
-      }}>
+      <Button variant="primary">
         Book Now
-      </button>
+      </Button>
     </motion.nav>
   );
 };

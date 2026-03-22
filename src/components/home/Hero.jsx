@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useData } from '../../context/DataContext';
+import Button from '../common/Button';
 
 const Hero = () => {
   const { hero } = useData();
@@ -53,21 +54,9 @@ const Hero = () => {
         }}>
           {hero.subtitle}
         </p>
-        <button style={{
-          backgroundColor: 'var(--color-primary)',
-          color: '#ffffff',
-          padding: '1rem 2.5rem',
-          borderRadius: 'var(--radius-md)',
-          fontWeight: 'bold',
-          fontSize: '1.1rem',
-          boxShadow: 'var(--shadow-md)',
-          transition: 'transform 0.2s',
-        }}
-        onMouseOver={e => e.currentTarget.style.transform = 'scale(1.05)'}
-        onMouseOut={e => e.currentTarget.style.transform = 'scale(1)'}
-        >
+        <Button variant="primary" style={{ padding: '1rem 2.5rem', fontSize: '1.1rem' }}>
           {hero.ctaText}
-        </button>
+        </Button>
       </motion.div>
     </section>
   );
