@@ -16,9 +16,11 @@ const Button = ({ children, variant = 'primary', className = '', onClick, ...pro
 
   const variants = {
     primary: {
-      backgroundColor: 'var(--color-primary)',
+      background: 'linear-gradient(135deg, var(--color-primary) 0%, #00B4B6 100%)',
       color: '#fff',
-      boxShadow: 'var(--shadow-md)',
+      boxShadow: '0 8px 20px rgba(0, 116, 143, 0.25)',
+      textShadow: '0 1px 2px rgba(0,0,0,0.1)',
+      border: '2px solid transparent'
     },
     outline: {
       backgroundColor: 'transparent',
