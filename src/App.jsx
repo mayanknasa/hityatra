@@ -1,41 +1,22 @@
-import { motion } from 'framer-motion';
-import { useData } from './context/DataContext';
+import React from 'react';
+import Navbar from './components/layout/Navbar';
+import Hero from './components/home/Hero';
+import Footer from './components/layout/Footer';
 
 function App() {
-  const { hero } = useData();
-
   return (
-    <motion.div 
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8 }}
-      style={{
-        minHeight: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        textAlign: 'center',
-        padding: '2rem'
-      }}
-    >
-      <h1 style={{ fontSize: '3rem', color: 'var(--color-primary)' }}>
-        {hero.title}
-      </h1>
-      <p style={{ fontSize: '1.25rem', color: 'var(--color-text-muted)', maxWidth: '600px', margin: '1rem 0 2rem' }}>
-        {hero.subtitle}
-      </p>
-      <button style={{
-        backgroundColor: 'var(--color-primary)',
-        color: '#fff',
-        padding: '1rem 2rem',
-        borderRadius: 'var(--radius-md)',
-        fontWeight: 'bold',
-        fontSize: '1rem'
-      }}>
-        {hero.ctaText}
-      </button>
-    </motion.div>
+    <>
+      <Navbar />
+      <main style={{ marginTop: '70px', minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <Hero />
+        {/* Future sections (Packages, Destination, FAQ, Testimonials) will go here */}
+        <div style={{ flex: 1, padding: '4rem 2rem', textAlign: 'center' }}>
+          <h2 style={{ fontSize: '2rem', color: 'var(--color-primary)' }}>Welcome to Hit Yatra</h2>
+          <p style={{ marginTop: '1rem', color: 'var(--color-text-muted)' }}>Scroll down to see our packages (coming next).</p>
+        </div>
+      </main>
+      <Footer />
+    </>
   );
 }
 
