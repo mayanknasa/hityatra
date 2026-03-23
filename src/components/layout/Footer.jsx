@@ -27,7 +27,7 @@ const Footer = () => {
             borderRadius: 'var(--radius-sm)', 
             marginBottom: '1.5rem' 
           }}>
-            <img src="/images/logo.png" alt="Hit Yatra Logo" style={{ height: '50px', width: 'auto', display: 'block', mixBlendMode: 'multiply' }} />
+            <img src="/hityatra/images/logo.png" alt="Hit Yatra Logo" style={{ height: '50px', width: 'auto', display: 'block', mixBlendMode: 'multiply' }} />
           </div>
           <p style={{ lineHeight: 1.6, color: '#a0aec0' }}>
             Experience divine journeys and breathtaking destinations across India with our premium travel packages.

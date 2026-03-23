@@ -12,7 +12,7 @@ const Hero = ({ onBook }) => {
       height: '80vh',
       minHeight: '600px',
       width: '100%',
-      backgroundImage: 'url(/images/hero_bg.png)',
+      backgroundImage: 'url(/hityatra/images/hero_bg.png)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       display: 'flex',
@@ -50,7 +50,7 @@ const Hero = ({ onBook }) => {
           justifyContent: 'center', 
           boxShadow: '0 8px 24px rgba(0,0,0,0.4)' 
         }}>
-          <img src="/images/logo.png" alt="Hit Yatra Emblem" style={{ height: '60px', width: 'auto', mixBlendMode: 'multiply' }} />
+          <img src="/hityatra/images/logo.png" alt="Hit Yatra Emblem" style={{ height: '60px', width: 'auto', mixBlendMode: 'multiply' }} />
         </div>
         <h1 style={{ 
           fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', 

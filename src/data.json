@@ -18,7 +18,7 @@
       "price": "₹6,999",
       "rating": 4.9,
       "reviews": 210,
-      "image": "/images/dest_1.png",
+      "image": "/hityatra/images/dest_1.png",
       "tag": "Best Seller"
     },
     {
@@ -28,7 +28,7 @@
       "price": "₹4,499",
       "rating": 4.8,
       "reviews": 340,
-      "image": "/images/tour_1.png",
+      "image": "/hityatra/images/tour_1.png",
       "tag": "Trending"
     },
     {
@@ -38,7 +38,7 @@
       "price": "₹2,499",
       "rating": 4.7,
       "reviews": 115,
-      "image": "/images/tour_2.png",
+      "image": "/hityatra/images/tour_2.png",
       "tag": "Spiritual"
     }
   ],
@@ -46,17 +46,17 @@
     {
       "id": "dest-1",
       "name": "Bake Bihari Temple",
-      "image": "/images/dest_1.png"
+      "image": "/hityatra/images/dest_1.png"
     },
     {
       "id": "dest-2",
       "name": "Shri Krishna Janmasthan",
-      "image": "/images/tour_1.png"
+      "image": "/hityatra/images/tour_1.png"
     },
     {
       "id": "dest-3",
       "name": "Govardhan Hill",
-      "image": "/images/tour_2.png"
+      "image": "/hityatra/images/tour_2.png"
     }
   ],
   "faq": [
